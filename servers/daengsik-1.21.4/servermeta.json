@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/daeng/Desktop/MRS/ServerDATA/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "daengsik (Minecraft 1.21.4)",
+    "description": "daengsik Running Minecraft 1.21.4 (Fabric v0.17.3)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.17.3"
+  },
+  "untrackedFiles": []
+}

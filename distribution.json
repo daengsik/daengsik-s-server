@@ -1,0 +1,290 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "daengsik-1.21.4",
+      "name": "daengsik (Minecraft 1.21.4)",
+      "description": "daengsik Running Minecraft 1.21.4 (Fabric v0.17.3)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "fabric": {
+        "version": "0.17.3"
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.17.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "27ee4411e0dc1e956c91d9278babf68b",
+                "url": "http://localhost:8080/repo/versions/1.21.4-fabric-0.17.3/1.21.4-fabric-0.17.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095505,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/appleskin-fabric-mc1.21.3-3.0.6.jar",
+            "MD5": "eadbff2f246d5494c530a795be893997"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:15.0.3@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 589645,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/architectury-15.0.3-fabric.jar",
+            "MD5": "29796a5960d833cf95d6f46668c13d55"
+          }
+        },
+        {
+          "id": "jaiz.coolrain:coolrain:1.1.0-1.21.4@jar",
+          "name": "CoolRain",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3127340,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/coolrain-1.1.0-1.21.4.jar",
+            "MD5": "c7b40e517288eee1d552422f39593008"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.6+kotlin.2.2.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479598,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.6+kotlin.2.2.20.jar",
+            "MD5": "c1d19e5d8b325b55c11c767468005aa2"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.3+1.21.3@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2298561,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/fzzy_config-0.7.3+1.21.3.jar",
+            "MD5": "6e11f4cbba93f035d66348312b9693f5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.0+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 595318,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.0+mc1.21.3.jar",
+            "MD5": "f06ab7fa4807353a7b725f4ad5dc86ba"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423236,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/OctoLib-FABRIC-0.5.0.1+1.21.4.jar",
+            "MD5": "069b50b7a392b10f99922c53b2f152f7"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:perception:0.1.4@jar",
+          "name": "Perception",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 68886,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/Perception-FABRIC-0.1.4+1.21.4.jar",
+            "MD5": "95432f9abf627c84bcef8020e5383ef5"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "einstein.subtle_effects:subtle_effects:1.9.4-hotfix.1@jar",
+          "name": "Subtle Effects",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1682351,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/SubtleEffects-fabric-1.21.4-1.9.4-hotfix.1.jar",
+            "MD5": "966c9cd34d8b7518b72add989cdd8084"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1733101,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/fabricmods/required/Xaeros_Minimap_25.2.10_Fabric_1.21.4.jar",
+            "MD5": "4d8ed980c7e2df1810a1b629660c5b32"
+          }
+        },
+        {
+          "id": "BSL_v10.0.zip",
+          "name": "BSL_v10.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1121678,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/files/shaderpacks/BSL_v10.0.zip",
+            "MD5": "a4d53a8d2a97d99e4e9ebc16eae7a39c",
+            "path": "shaderpacks/BSL_v10.0.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V3.0.zip",
+          "name": "Solas Shader V3.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1306582,
+            "url": "http://localhost:8080/servers/daengsik-1.21.4/files/shaderpacks/Solas%20Shader%20V3.0.zip",
+            "MD5": "5fcf212f159e4bb7725df32762df6ecf",
+            "path": "shaderpacks/Solas Shader V3.0.zip"
+          }
+        }
+      ]
+    }
+  ],
+  "fabric":{
+    "version": "0.17.3"
+  }
+}
