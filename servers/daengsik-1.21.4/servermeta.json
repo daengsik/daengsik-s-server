@@ -5,7 +5,7 @@
     "name": "daengsik (Minecraft 1.21.4)",
     "description": "daengsik Running Minecraft 1.21.4 (Fabric v0.17.3)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "address": "mysticred.space:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
