@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/daeng/Desktop/MRS/ServerDATA/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://daengsik.github.io/daengsik-s-server/news.xml",
     "discord": {
       "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

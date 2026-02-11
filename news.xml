@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daengsik Server 공지사항</title>
+    <link>https://mc.daengsik.com/</link>
+    <description>서버 최신 소식 및 공지사항</description>
+    <language>ko</language>
+    <lastBuildDate>Sat, 18 Jan 2026 23:00:00 +0900</lastBuildDate>
+    
+    <item>
+      <title>🎉 서버 오픈!</title>
+      <link>https://discord.gg/JMQAnjbGCR</link>
+      <description><![CDATA[
+        <h2>Daengsik 서버에 오신 것을 환영합니다!</h2>
+        <p><strong>서버 정보:</strong></p>
+        <ul>
+          <li>✨ Minecraft 1.21.4 Fabric</li>
+          <li>🎨 셰이더 3종 포함 (BSL, Complementary, Solas)</li>
+          <li>⚡ Sodium 성능 최적화</li>
+          <li>🗺️ Xaero's Minimap</li>
+          <li>🌧️ 아름다운 날씨 효과</li>
+        </ul>
+        <p>디스코드에서 더 많은 정보를 확인하세요!</p>
+      ]]></description>
+      <pubDate>Sat, 18 Jan 2026 23:00:00 +0900</pubDate>
+      <guid isPermaLink="false">news-2026-01-18-001</guid>
+    </item>
+    
+    <item>
+      <title>📢 서버 규칙 안내</title>
+      <link>https://discord.gg/JMQAnjbGCR</link>
+      <description><![CDATA[
+        <h3>서버 이용 규칙</h3>
+        <p>모두가 즐겁게 플레이할 수 있도록 규칙을 지켜주세요:</p>
+        <ul>
+          <li>⛔ 욕설 및 비방 금지</li>
+          <li>⛔ 해킹/치트 사용 금지</li>
+          <li>⛔ 타인의 건축물 파괴 금지</li>
+          <li>✅ 서로 존중하며 플레이</li>
+        </ul>
+      ]]></description>
+      <pubDate>Fri, 17 Jan 2026 20:00:00 +0900</pubDate>
+      <guid isPermaLink="false">news-2026-01-17-001</guid>
+    </item>
+    
+    <item>
+      <title>🎮 게임 팁</title>
+      <link>https://discord.gg/JMQAnjbGCR</link>
+      <description><![CDATA[
+        <h3>초보자를 위한 팁</h3>
+        <ul>
+          <li>🔑 <strong>F3</strong>: 디버그 정보 표시</li>
+          <li>🗺️ <strong>M</strong>: 미니맵 열기</li>
+          <li>💡 <strong>Shift + 우클릭</strong>: 셰이더 설정</li>
+          <li>📸 <strong>F2</strong>: 스크린샷</li>
+        </ul>
+        <p>더 많은 정보는 디스코드에서 확인하세요!</p>
+      ]]></description>
+      <pubDate>Thu, 16 Jan 2026 18:00:00 +0900</pubDate>
+      <guid isPermaLink="false">news-2026-01-16-001</guid>
+    </item>
+    
+  </channel>
+</rss>
