@@ -13,7 +13,7 @@
       "description": "daengsik Running Minecraft 1.21.4 (Fabric v0.17.3)",
       "icon": null,
       "version": "1.0.0",
-      "address": "vultr.daengsik.com:60005",
+      "address": "daengsik.com:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -236,13 +236,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:voicechat:forge-1.21.4-2.6.0@jar",
-          "name": "Voicechat",
+          "id": "de.maxhenkel:voicechat:1.21.4-2.5.35@jar",
+          "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 4860543,
-            "url": "https://daengsik.github.io/daengsik-s-server/servers/daengsik-1.21.4/fabricmods/required/voicechat-forge-1.21.4-2.6.0.jar",
-            "MD5": "2508e0b3889da149f2e1c8fae77cc490"
+            "size": 7306270,
+            "url": "https://daengsik.github.io/daengsik-s-server/servers/daengsik-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.5.35.jar",
+            "MD5": "918578e48d75886581590ccbfdcbe277"
           }
         },
         {
