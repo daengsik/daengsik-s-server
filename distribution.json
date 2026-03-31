@@ -236,6 +236,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:voicechat:forge-1.21.4-2.6.0@jar",
+          "name": "Voicechat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4860543,
+            "url": "https://daengsik.github.io/daengsik-s-server/servers/daengsik-1.21.4/fabricmods/required/voicechat-forge-1.21.4-2.6.0.jar",
+            "MD5": "2508e0b3889da149f2e1c8fae77cc490"
+          }
+        },
+        {
           "id": "xaero.minimap:xaerominimap:25.2.10@jar",
           "name": "Xaero's Minimap",
           "type": "FabricMod",
